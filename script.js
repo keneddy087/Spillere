@@ -1,7 +1,3 @@
-$(document).ready(function(){
-    $('.bxslider').bxSlider();
-  });
-
 const target = document.querySelectorAll("[data-anime]");
 const menuBurger = document.getElementById("hamburguer");
 const container = document.querySelector(".container");
