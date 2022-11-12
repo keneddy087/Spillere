@@ -41,25 +41,27 @@
 
     <div class="header" id="nav">
         <img src="img/logo-3-removebg-preview.png" alt="">
-        <button>Sobre Mim</button>
-        <button>Minha História</button>
-        <button>Procedimentos</button>
-        <button>Sobre Mim</button>
+        <button> <a href="#sobreMin"> Sobre Mim </a> </button>
+        <button> <a href="#MinhaHistoria"> Minha História </a> </button>
+        <button> <a href="#procedimentos"> Procedimentos </a> </button>
+        <button> <a href="#agendar"> Agendamento </a> </button>
 
         <span id="hamburguer"></span>
 	</div> <!-- header -->
 
-    <div class="menuMobile">
-      <br><br><br>
-      <h1>Sobre Mim</h2>
-      <h1>Minha História</h1>
-      <h1>Procedimentos</h1>
-      <h1>Marcar um Horário</h1>
-    </div>
+    
 
     <div class="container">
+        
+        <div class="menuMobile">
+            <br><br><br>
+            <h1> <a href="#sobreMin" id="link1"> Sobre Mim </a> </h2>
+            <h1> <a href="#MinhaHistoria" id="link2"> Minha História </a> </h1>
+            <h1> <a href="#procedimentos" id="link3"> Procedimentos </a> </h1>
+            <h1> <a href="#agendar" id="link4"> Marcar um Horário </a> </h1>
+        </div>
 
-        <div class="container_ini">
+        <div class="container_ini" data-anime="top">
             <!-- imagem inicial -->
             <div class="initial" data-anime="top">
         	    <div class="initialWarapper" data-anime="top">
@@ -68,38 +70,37 @@
             </div>
 
             <!-- Quem sou eu -->
-            <div class="aboutMe" data-anime="top">
-                <h6>Quem sou Eu?</h6>
-                <br><br>
-                <p>Olá tudo bem com você? Espero que sim.
+            <div class="aboutMe" data-anime="top" id="sobreMin">
 
-                    Para você que não me conhece me chamo Giovana, 
-                    tenho 20 anos e sou atuante na área da estética há 2 anos, 
-                    tenho meu próprio studio na minha casa, 
-                    sou cristã e casada há 1 ano, sou a mais nova de três irmãs, 
-                    venho de uma família humilde, meu pai trabalhou a vida inteira de pedreiro e minha mãe de costureira, 
-                    eles sempre batalharam muito para nos dar uma boa educação, 
-                    minhas duas irmãs conseguiram realizar suas faculdades, 
-                    já eu por escolha própria não quis realizar o ensino superior já que eu me dedico totalmente a área da estética 
-                    onde pretendo ficar.</p>
                 <div class="quotes">
                     <br>
-                    <h2>"Há dois anos realçando olhares através do design de sobrancelhas"</h2>
+                    <img src="/img/welcome.png" data-anime="top" class="efeito-flutuante-infinito">
+                    
                     <br>
                 </div>
+
+                <h6>Quem sou Eu?</h6>
+                <br><br>
+                <p>Olá tudo bem?? Para você que não me conhece, eu me chamo Giovana e sou apaixonada pela área da estética, 
+                    trabalho como designer de sobrancelhas há mais de 2 anos e tenho como o meu objetivo principal ser 
+                    reconhecida pelo meu trabalho, luto todos os dias para ser uma melhor profissional e me orgulho em 
+                    ver como o meu trabalho pode arrancar sorrisos daquelas que confiam nele.</p>
+                    <br>
+                    <h2>"Há dois anos realçando olhares através do design de sobrancelhas"</h2>
+                
             </div>
         </div>
         
-        <div class="myHistoryMain">
+        <div class="myHistoryMain" id="MinhaHistoria">
             <!-- Minha História -->
             <div class="myHistory" data-anime="top">
                 <h6>Minha Historia</h6>
                 <br><br>
-                <p>Em 2021, em meio a uma pandemia, resolvi mudar minha vida por completo, 
-                    deixei toda a segurança que um trabalho CLT traz e me lancei 
-                    completamente ao empreendedorismo, como todo início o meu foi muito difícil, 
-                    passei por muitas lutas que achei que não conseguiria vencer, mas com o tempo aprendi a 
-                    lição de que na vida nada vem fácil pra ninguém e comigo é claro que não seria diferente.
+                <p>Em 2021, em meio a uma pandemia, resolvi mudar a minha vida por completo, 
+                   deixei toda a segurança que um trabalho CLT traz e me lancei completamente ao empreendedorismo, 
+                   como todo o início o meu foi muito difícil, passei por muitas lutas que achei que não conseguiria vencer, 
+                   mas com o tempo aprendi a lição de que na vida nada vem fácil para ninguém e comigo, 
+                   é claro que não seria diferente.
                     <br><br>
                     Hoje olho para trás com um sentimento de gratidão, 
                     pois foi passando por todas as dificuldades que aprendi a 
@@ -113,7 +114,7 @@
     <!-- </div> -->
 
         <!-- Procedimentos -->
-        <div class="procedure">
+        <div class="procedure" id="procedimentos">
             <h6 data-anime="top">Procedimentos</h6>
             <br>
             <span data-anime="top">Aqui você pode ver um pouco do meu trabalho. Fique a vontade.</span>
@@ -129,8 +130,8 @@
                     <h2>Design Personalizado</h2>
                     <br>
                     <ul>Saiba mais
-                    <li>O design personalizado é um procedimento que segue as medidas de pontos estratégicos do rosto para criar um 
-						mapeamento facial, formando um design conforme as medidas tiradas do próprio rosto. 
+                    <li>O design personalizado é um procedimento que segue as medidas de pontos estratégicos do rosto, é através dessas medidas que conseguimos o design ideal para cada rosto.
+						 
 						<br><br>
 						<b>Valor: 25,00. </b> </li>
                     </ul>
@@ -165,7 +166,7 @@
                     <br>
                     <ul>Saiba mais
                         <li>Essa é uma técnica realizada nos fios naturais, curvando, tingindo, hidratando e nutrindo os cílios. 
-						    Com duração de até 60 dias, esse procedimento dispensa manutenções
+						    Com duração de até 60 dias, esse procedimento dispensa manutenções.
 						    <br><br>
 						    <b>Valor: 70,00 </b> </li>
                     </ul>
@@ -174,10 +175,10 @@
         </div> <!-- procedure -->
 
         <!-- Agendamento -->
-		<div class="toSchedule" data-anime="top">
+		<div class="toSchedule" data-anime="top" id="agendar">
 			<h6>Se interessou por algum procedimento?</h6>
 			<br>
-			<p>Que tal agendar um horário? Vou ficar muito feliz em ver você por aqui! 🥰</p>
+			<p>você pode agendar um horário ou tirar todas as suas dúvidas clicando no botão abaixo </p>
             <button onclick="window.location.href = 'https://wa.me/message/ABZKQY6CW7LFM1'">Marcar um Horário</button>
 		</div> <!-- toSchedule -->
 
@@ -185,14 +186,14 @@
             <h3>Mais Informações:</h3>
             <br>
             <div class="informations">
-                <i class="fa-brands fa-instagram fa-2x" attr></i>
-                <i class="fa-brands fa-facebook fa-2x"></i>
-                <i class="fa-brands fa-twitter fa-2x"></i>
+                <a href="https://instagram.com/sobrancelhasgiospillere?igshid=YmMyMTA2M2Y=">  <i class="fa-brands fa-instagram fa-2x">  </i> </a>
+                <a href="https://goo.gl/maps/Wk9i3UYi6ZEGQ1hT6"> <i class="fa-solid fa-location-dot fa-2x"></i> </a>
+                <a href="https://wa.me/message/ABZKQY6CW7LFM1">  <i class="fa-brands fa-whatsapp fa-2x"></i>    </a>
             </div>
         </div>
 
         <br><br>
-        <div class="footer" data-anime="top">© Keneddy Anastácio de Souza</div>
+        <div class="footer" data-anime="top">© 2022 - Keneddy Anastácio de Souza</div>
     </div> <!-- container -->
 
 

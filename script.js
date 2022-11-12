@@ -41,11 +41,74 @@ if(target.length){
 }
 
 menuBurger.addEventListener("click", function(){
-    const menuMobile = document.querySelector(".menuMobile");
+    const menuMobile   = document.querySelector(".menuMobile");
+
+    const containerIni = document.querySelector(".container_ini");
+    const Myhistory    = document.querySelector(".myHistoryMain");
+    const procedure    = document.querySelector(".procedure");
+    const toSchedule   =  document.querySelector(".toSchedule"); 
+
+    var descendentes = document.querySelectorAll("a");
 
     menuBurger.classList.toggle("animateHamburger");
-    container.classList.toggle("removeContainer");
+    containerIni.classList.toggle("removeContainer");
+    Myhistory.classList.toggle("removeContainer");
+    procedure.classList.toggle("removeContainer");
+    toSchedule.classList.toggle("removeContainer");
+
     menuMobile.classList.toggle("showMenu");
+
+    let aboutMe = document.getElementById("link1");
+
+    aboutMe.addEventListener("click", function(){
+
+        menuMobile.classList.remove("showMenu");
+        menuBurger.classList.remove("animateHamburger");
+
+        containerIni.classList.remove("removeContainer");
+        Myhistory.classList.remove("removeContainer");
+        procedure.classList.remove("removeContainer");
+        toSchedule.classList.remove("removeContainer");
+    })
+
+    let myHisotryLink = document.getElementById("link2");
+
+    myHisotryLink.addEventListener("click", function(){
+        
+        menuMobile.classList.remove("showMenu");
+        menuBurger.classList.remove("animateHamburger");
+
+        containerIni.classList.remove("removeContainer");
+        Myhistory.classList.remove("removeContainer");
+        procedure.classList.remove("removeContainer");
+        toSchedule.classList.remove("removeContainer");
+    })
+
+    let procedureLink = document.getElementById("link3");
+
+    procedureLink.addEventListener("click", function(){
+       
+        menuMobile.classList.remove("showMenu");
+        menuBurger.classList.remove("animateHamburger");
+
+        containerIni.classList.remove("removeContainer");
+        Myhistory.classList.remove("removeContainer");
+        procedure.classList.remove("removeContainer");
+        toSchedule.classList.remove("removeContainer");
+    })
+
+    let toScheduleLink = document.getElementById("link4");
+
+    toScheduleLink.addEventListener("click", function(){
+       
+        menuMobile.classList.remove("showMenu");
+        menuBurger.classList.remove("animateHamburger");
+
+        containerIni.classList.remove("removeContainer");
+        Myhistory.classList.remove("removeContainer");
+        procedure.classList.remove("removeContainer");
+        toSchedule.classList.remove("removeContainer");
+    })
 })
 
 /*== Slider procedimentos ==*/
